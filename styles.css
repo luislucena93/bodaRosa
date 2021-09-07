@@ -1,0 +1,130 @@
+html, body {
+  margin: 0px;
+  background-color: #daccc0;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("images/IMG_3889.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header .text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 20px;  
+  width: 100%;
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 160px;
+  font-weight: 800;
+  line-height: 150px;
+  color: #c97c6f;
+  text-shadow: white 3px 3px 3px;
+  margin-bottom: 10px;
+}
+
+.header span {
+  font-size: 140px;
+}
+
+.header h3 {
+  font-family: 'Open Sans';
+  font-size: 60px;
+  color: white;
+  margin: 10px
+}
+
+.como_llegar {
+  background-color: #daccc0;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.como_llegar h1{
+  font-family: 'Raleway';
+  font-size: 80px;
+  font-weight: lighter;
+  color: #c97c6f;
+  margin: 0px;
+  padding-top: 100px;
+}
+
+.como_llegar p {
+  font-family: 'Raleway';
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 60px;
+  color: white;
+  padding: 40px;
+  margin: 0;
+}
+
+.como_llegar h3 {
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: lighter;
+  color: #c97c6f;
+  margin-bottom: 0;
+}
+
+.map {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.fotos {
+  background-color: #daccc0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 50px;
+  padding-top: 50px;
+  border-top: solid white 2px;
+}
+
+.fotos img{
+  margin: 40px;
+  padding: 0;
+  width: 400px;
+  height: 400px;
+  object-fit: cover; 
+}
+
+@media screen and (max-device-width: 768px) {
+  .fotos img {
+    margin: 20px;
+    width: 90vw;
+    height: 90vw;
+  }
+}
+
+.fotos h1 {
+  text-align: center;
+  width: 100%;
+  font-family: 'Great Vibes', cursive;
+  font-size: 120px;
+  font-weight: 800;
+  color: #c97c6f;
+  text-shadow: white 3px 3px 3px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
