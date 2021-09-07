@@ -126,18 +126,6 @@ html, body {
   object-fit: cover; 
 }
 
-@media screen and (max-device-width: 768px) {
-  .text {
-    bottom: 200px;
-  }
-
-  .fotos img {
-    margin: 20px;
-    width: 90vw;
-    height: 90vw;
-  }
-}
-
 .fotos h1 {
   text-align: center;
   width: 100%;
@@ -266,6 +254,7 @@ input[type=radio] {
   width: 30px;
   height: 30px;
   border: none;
+  margin-bottom: 50px;
 }
 .input-text {
   margin-top: 10px;
@@ -280,6 +269,7 @@ input[type=radio] {
   margin: 20px;
   border-radius: 10px;
   background-color: #003644;
+  padding: 40px;
 }
 
 input[type=submit] {
@@ -291,4 +281,21 @@ input[type=submit] {
   font-size: 40px;
   padding: 10px;
   border-radius: 10px;
+}
+
+@media screen and (max-device-width: 768px) {
+  .text {
+    bottom: 200px;
+  }
+
+  .fotos img {
+    margin: 20px;
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .input-text {
+    width: 100%;
+    display: block;
+  }
 }
