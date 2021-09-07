@@ -105,6 +105,7 @@ html, body {
   position: relative;
   z-index: 10;
   background-color: #daccc0;
+  padding-bottom: 50px;
 }
 
 .fotos {
@@ -147,4 +148,147 @@ html, body {
   text-shadow: white 3px 3px 3px;
   margin-bottom: 10px;
   margin-top: 0px;
+}
+
+.regalos {
+  background-color: #003644;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.regalos h1{
+  font-family: 'Raleway';
+  font-size: 80px;
+  font-weight: lighter;
+  color: #c97c6f;
+  margin: 0px;
+  padding-top: 100px;
+}
+
+.regalos p {
+  font-family: 'Raleway';
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 60px;
+  color: white;
+  padding: 40px;
+  margin: 0;
+}
+
+.regalos img{
+  width: 300px;
+  height: 300px;
+}
+.separator {
+  width: 90%;
+  margin-left: 5%;
+  border-top: 1px solid white;
+  margin-top: 50px;
+}
+.dresscode {
+  background-color: #003644;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.dresscode h1{
+  font-family: 'Raleway';
+  font-size: 80px;
+  font-weight: lighter;
+  color: #c97c6f;
+  margin: 0px;
+  padding-top: 100px;
+}
+
+.dresscode p{
+  font-family: 'Raleway';
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 60px;
+  color: white;
+  padding: 40px;
+  margin: 0;
+}
+
+.pandemia {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.pandemia h1 {
+  text-align: center;
+  width: 100%;
+  font-family: 'Great Vibes', cursive;
+  font-size: 120px;
+  font-weight: 800;
+  color: #c97c6f;
+  text-shadow: white 3px 3px 3px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.pandemia p {
+  font-family: 'Raleway';
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 60px;
+  color: white;
+  padding: 40px;
+  margin: 0;
+}
+
+label, legend {
+  font-family: 'Raleway';
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  color: white;
+  padding: 40px;
+  margin: 0;
+}
+
+form {
+  padding: 40px;
+}
+
+fieldset {
+  border: none
+}
+
+input[type=radio] {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+.input-text {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.form {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #003644;
+}
+
+input[type=submit] {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+  width: 30%;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 10px;
 }
