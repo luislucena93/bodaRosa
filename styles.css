@@ -18,7 +18,14 @@ html, body {
   background-size: cover;
 }
 
-.header .text {
+.header-text {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.text {
   text-align: center;
   margin: 0;
   padding: 0;
@@ -27,7 +34,7 @@ html, body {
   width: 100%;
 }
 
-.header h1 {
+.header-text h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 160px;
   font-weight: 800;
@@ -37,11 +44,11 @@ html, body {
   margin-bottom: 10px;
 }
 
-.header span {
+.header-text span {
   font-size: 140px;
 }
 
-.header h3 {
+.header-text h3 {
   font-family: 'Open Sans';
   font-size: 60px;
   color: white;
@@ -97,7 +104,6 @@ html, body {
 .content {
   position: relative;
   z-index: 10;
-  top: 100vh;
   background-color: #daccc0;
 }
 
@@ -120,6 +126,10 @@ html, body {
 }
 
 @media screen and (max-device-width: 768px) {
+  .text {
+    bottom: 200px;
+  }
+
   .fotos img {
     margin: 20px;
     width: 90vw;
