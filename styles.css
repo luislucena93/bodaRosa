@@ -1,21 +1,34 @@
+@font-face {
+  font-family: 'Cherolina';
+  src: url('./fonts/Cherolina.woff2') format('woff2'),
+      url('./fonts/Cherolina.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('./fonts/Calibri-Light.woff2') format('woff2'),
+      url('./fonts/Calibri-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
   margin: 0px;
   background-color: #daccc0;
   height:100%;
   min-height:100%;
+  font-family: 'Calibri';
 }
 
 .header {
-  z-index: 2;
   width: 100%;
   height: 100vh;
   position: fixed;
-  background: url("images/IMG_3889.webp") no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #c97c6f;
 }
 
 .header-text {
@@ -34,25 +47,25 @@ html, body {
   width: 100%;
 }
 
-.header-text h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 160px;
-  font-weight: 800;
-  line-height: 150px;
-  color: #c97c6f;
-  text-shadow: white 3px 3px 3px;
-  margin-bottom: 10px;
-}
 
 .header-text span {
   font-size: 140px;
 }
 
 .header-text h3 {
-  font-family: 'Open Sans';
-  font-size: 60px;
+  font-size: 30px;
   color: white;
-  margin: 10px
+  margin: 10px;
+  letter-spacing: 10px;
+}
+
+.logo {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .como_llegar {
@@ -64,16 +77,14 @@ html, body {
 }
 
 .como_llegar h1{
-  font-family: 'Raleway';
   font-size: 80px;
   font-weight: lighter;
-  color: #c97c6f;
+  color: #544540;
   margin: 0px;
   padding-top: 100px;
 }
 
 .como_llegar p {
-  font-family: 'Raleway';
   font-size: 35px;
   font-weight: 800;
   line-height: 60px;
@@ -83,10 +94,10 @@ html, body {
 }
 
 .como_llegar h3 {
-  font-family: 'Raleway';
-  font-size: 60px;
-  font-weight: lighter;
-  color: #c97c6f;
+  font-family: 'Cherolina';
+  font-size: 100px;
+  font-weight: bold;
+  color: #544540;
   margin-bottom: 0;
 }
 
@@ -129,11 +140,10 @@ html, body {
 .fotos h1 {
   text-align: center;
   width: 100%;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cherolina';
   font-size: 120px;
   font-weight: 800;
-  color: #c97c6f;
-  text-shadow: white 3px 3px 3px;
+  color: #544540;
   margin-bottom: 10px;
   margin-top: 0px;
 }
@@ -147,7 +157,6 @@ html, body {
 }
 
 .regalos h1{
-  font-family: 'Raleway';
   font-size: 80px;
   font-weight: lighter;
   color: #c97c6f;
@@ -156,7 +165,6 @@ html, body {
 }
 
 .regalos p {
-  font-family: 'Raleway';
   font-size: 35px;
   font-weight: 800;
   line-height: 60px;
@@ -185,7 +193,6 @@ html, body {
 }
 
 .dresscode h1{
-  font-family: 'Raleway';
   font-size: 80px;
   font-weight: lighter;
   color: #c97c6f;
@@ -193,8 +200,12 @@ html, body {
   padding-top: 100px;
 }
 
+.dresscode img {
+  width: 90%;
+  margin: 10px;
+}
+
 .dresscode p{
-  font-family: 'Raleway';
   font-size: 35px;
   font-weight: 800;
   line-height: 60px;
@@ -212,18 +223,16 @@ html, body {
 
 .pandemia h1 {
   text-align: center;
+  font-family: 'Cherolina';
   width: 100%;
-  font-family: 'Great Vibes', cursive;
   font-size: 120px;
   font-weight: 800;
-  color: #c97c6f;
-  text-shadow: white 3px 3px 3px;
+  color: #544540;
   margin-bottom: 10px;
   margin-top: 60px;
 }
 
 .pandemia p {
-  font-family: 'Raleway';
   font-size: 35px;
   font-weight: 800;
   line-height: 60px;
@@ -242,9 +251,22 @@ html, body {
     bottom: 200px;
   }
 
+  .header-text h3 {
+    font-size: 60px;
+  }
+
   .fotos img {
     margin: 20px;
     width: 90vw;
     height: 90vw;
+  }
+
+  .logo {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
