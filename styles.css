@@ -1,18 +1,4 @@
 @font-face {
-  font-family: 'Cherolina';
-  src: url('./fonts/Cherolina.eot');
-  src: url('./fonts/Cherolina.eot?#iefix') format('embedded-opentype'),
-      url('./fonts/Cherolina.woff2') format('woff2'),
-      url('./fonts/Cherolina.woff') format('woff'),
-      url('./fonts/Cherolina.ttf') format('truetype'),
-      url('./fonts/Cherolina.svg#Cherolina') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
   font-family: 'Calibri';
   src: url('./fonts/Calibri-Light.woff2') format('woff2'),
       url('./fonts/Calibri-Light.woff') format('woff');
@@ -82,7 +68,8 @@ html, body {
 }
 
 .como_llegar h1{
-  font-size: 80px;
+  font-family: 'Birthstone', cursive;
+  font-size: 100px;
   font-weight: lighter;
   color: #544540;
   margin: 0px;
@@ -99,9 +86,9 @@ html, body {
 }
 
 .como_llegar h3 {
-  font-family: 'Cherolina';
-  font-size: 100px;
-  font-weight: bold;
+  font-family: 'Birthstone', cursive;
+  font-weight: lighter;
+  font-size: 80px;
   color: #544540;
   margin-bottom: 0;
 }
@@ -145,9 +132,9 @@ html, body {
 .fotos h1 {
   text-align: center;
   width: 100%;
-  font-family: 'Cherolina';
-  font-size: 120px;
-  font-weight: 800;
+  font-family: 'Birthstone', cursive;
+  font-weight: lighter;
+  font-size: 100px;
   color: #544540;
   margin-bottom: 10px;
   margin-top: 0px;
@@ -162,7 +149,8 @@ html, body {
 }
 
 .regalos h1{
-  font-size: 80px;
+  font-family: 'Birthstone', cursive;
+  font-size: 100px;
   font-weight: lighter;
   color: #c97c6f;
   margin: 0px;
@@ -198,7 +186,8 @@ html, body {
 }
 
 .dresscode h1{
-  font-size: 80px;
+  font-family: 'Birthstone', cursive;
+  font-size: 100px;
   font-weight: lighter;
   color: #c97c6f;
   margin: 0px;
@@ -228,10 +217,10 @@ html, body {
 
 .pandemia h1 {
   text-align: center;
-  font-family: 'Cherolina';
+  font-family: 'Birthstone', cursive;
   width: 100%;
-  font-size: 120px;
-  font-weight: 800;
+  font-size: 100px;
+  font-weight: lighter;
   color: #544540;
   margin-bottom: 10px;
   margin-top: 60px;
